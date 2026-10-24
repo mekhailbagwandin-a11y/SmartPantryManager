@@ -1,0 +1,100 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#194B38"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage your Smart Pantry preferences."
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notifications and Alerts"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#194B38"
+            android:layout_marginBottom="16dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchExpiryAlerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expiring-soon alerts"
+            android:textSize="17sp"
+            android:padding="8dp"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/txtExpiryStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expiry alerts are enabled."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Smart Pantry Manager"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#194B38"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Pantry Manager helps households reduce food waste by tracking available ingredients and recommending recipes that can be prepared without purchasing additional ingredients."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0"
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile App Development 700"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#194B38" />
+
+    </LinearLayout>
+</ScrollView>
